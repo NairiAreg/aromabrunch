@@ -1,0 +1,22 @@
+{
+    "sourceFile": "scss/_gallery.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1714904018067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714904027194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,4 +60,33 @@\n }\n .gallery_imag_9{\n     background-image: url(../img/gallery/9.png);\n }\n+\n+.gallery_area{\n+    padding: 0 50px;\n+    padding-top: 90px;\n+    @media #{$mobile_device}{\n+        padding: 0;\n+    }\n+    .single_gallery{\n+        // margin: 4px;\n+        height: 410px;\n+        background-size: cover;\n+        background-repeat: no-repeat;\n+        background-position: center center;\n+        overflow: hidden;\n+        position: relative;\n+    }\n+    .grid-item {\n+        overflow: hidden;\n+        padding: 4px !important;\n+    }\n+    a{\n+        position: absolute;\n+        left: 0;\n+        top: 0;\n+        width: 100%;\n+        height: 100%;\n+\n+    }\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1714904018067,
+            "name": "Commit-0",
+            "content": "// .portfolio-area{\n//     padding: 0 50px;\n//     .single_porfolio{\n//         overflow: hidden !important;\n//         height: 410px;\n//         // padding: 5px !important;\n//         margin: px !important;\n//         img{\n//             width: 100%;\n//         }\n//         &.small_width{\n//             min-width: 482px;\n//         }\n//         &.mid_large{\n//             max-width: 601px;\n//         }\n//         &.large_width{\n//             max-width: 721px;\n//         }\n//     }\n// }\n\n// #project {\n//     padding-left: 50px;\n//     .single_porfolio{\n//         margin: 5px !important;\n//     }\n// }\n// .portfolio_image_1{\n//     background-image: url(../img/gallery/1.png);\n// }\n\n// .single_image{\n//     height: 410px;\n// }\n\n.gallery_imag_1{\n    background-image: url(../img/gallery/1.png);\n}\n.gallery_imag_2{\n    background-image: url(../img/gallery/2.png);\n}\n.gallery_imag_3{\n    background-image: url(../img/gallery/3.png);\n}\n.gallery_imag_4{\n    background-image: url(../img/gallery/4.png);\n}\n.gallery_imag_5{\n    background-image: url(../img/gallery/5.png);\n}\n.gallery_imag_6{\n    background-image: url(../img/gallery/6.png);\n}\n.gallery_imag_7{\n    background-image: url(../img/gallery/7.png);\n}\n.gallery_imag_8{\n    background-image: url(../img/gallery/8.png);\n}\n.gallery_imag_9{\n    background-image: url(../img/gallery/9.png);\n}\n"
+        }
+    ]
+}

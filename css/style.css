@@ -140,7 +140,7 @@ h3 {
 }
 
 .boxed_btn3 {
-  background: #c78665;
+  background: #555;
   padding: 9px 26px;
   margin-bottom: 0;
   font-size: 20px;
@@ -154,7 +154,7 @@ h3 {
 
 .boxed_btn3:hover {
   background: #faf0f0;
-  color: #c78665;
+  color: #555;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -177,7 +177,7 @@ h3 {
   font-size: 40px;
   font-weight: 400;
   font-family: "Muli", sans-serif;
-  color: #c78665;
+  color: #555;
   display: block;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -261,7 +261,7 @@ h3 {
 }
 
 .slider_bg_1 {
-  background-image: url(../img/main/3.webp);
+  background-image: url(../img/main/3.gif);
 }
 
 .slider_area {
@@ -270,7 +270,7 @@ h3 {
 
 @media (min-width: 481px) {
   .slider_bg_1 {
-    background-image: url(../img/main/1.png);
+    background-image: url(../img/main/3.gif);
   }
 }
 
@@ -312,8 +312,7 @@ h3 {
 @media (min-width: 481px) {
   .slider_area_inner {
     height: 800px;
-    background-position: 50% 0;
-    background-size: 111%;
+    background-size: cover;
   }
 }
 
@@ -322,15 +321,18 @@ h3 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #c78665;
+  background: #555;
   padding: 126px 55px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 35%;
+  -moz-border-radius: 35%;
+  border-radius: 35%;
   z-index: 10;
 }
 
 @media (max-width: 767px) {
+  .slider_area_inner .slider_text > * {
+    transform: rotate(-45deg) !important;
+  }
   .slider_area_inner .slider_text {
     transform: translate(0%, -50%) rotate(0deg);
     padding: 35px 25px;
@@ -340,7 +342,7 @@ h3 {
     right: 0;
     margin: auto;
     top: 98%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) rotate(45deg);
     display: inline-block;
     width: 270px;
     height: 270px;
@@ -348,6 +350,9 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .slider_area_inner .slider_text > * {
+    transform: rotate(-45deg) !important;
+  }
   .slider_area_inner .slider_text {
     transform: translate(0%, -50%) rotate(0deg);
     padding: 35px 25px;
@@ -357,7 +362,7 @@ h3 {
     right: 0;
     margin: auto;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) rotate(45deg);
     display: inline-block;
     width: 270px;
     height: 270px;
@@ -365,9 +370,12 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
+  .slider_area_inner .slider_text > * {
+    transform: rotate(-45deg) !important;
+  }
   .slider_area_inner .slider_text {
     transform: rotate(0deg);
-    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg) rotate(0deg);
     padding: 70px 25px;
   }
 }
@@ -447,10 +455,10 @@ h3 {
   content: "";
   right: -40px;
   bottom: -25px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  border: 1px solid #c78665;
+  -webkit-border-radius: 35%;
+  -moz-border-radius: 35%;
+  border-radius: 35%;
+  border: 1px solid #555;
   top: -30px;
   left: -20px;
   z-index: -3;
@@ -479,9 +487,9 @@ h3 {
   content: "";
   right: -25px;
   bottom: -25px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 35%;
+  -moz-border-radius: 35%;
+  border-radius: 35%;
   border: 1px solid #f2c64d;
   top: -30px;
   left: -40px;
@@ -550,7 +558,6 @@ h3 {
 
 .attending_area {
   padding-top: 95px;
-  padding-bottom: 280px;
 }
 
 @media (max-width: 767px) {
@@ -562,14 +569,12 @@ h3 {
 @media (max-width: 767px) {
   .attending_area {
     padding-top: 0;
-    padding-bottom: 80px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .attending_area {
     padding-top: 0;
-    padding-bottom: 40px;
   }
 }
 
@@ -609,7 +614,7 @@ h3 {
 .attending_area .main_attending_area .popup_box h3 {
   text-align: center;
   font-size: 36px;
-  color: #c78665;
+  color: #555;
 }
 
 .attending_area .main_attending_area .popup_box p {
@@ -712,7 +717,7 @@ h3 {
 .location_area .location_info .location_inner h3 {
   font-size: 36px;
   font-weight: 400;
-  color: #c78665;
+  color: #555;
 }
 
 .location_area .location_info .location_inner p {
@@ -725,7 +730,7 @@ h3 {
 }
 
 .location_area .location_info .location_inner p span {
-  color: #c78665;
+  color: #555;
 }
 
 @media (max-width: 767px) {
@@ -735,7 +740,7 @@ h3 {
 }
 
 .location_area .location_info .location_inner .address_info .single_address h4 {
-  color: #c78665;
+  color: #555;
   font-size: 26px;
   font-family: "Muli", sans-serif;
   font-weight: 600;
@@ -838,7 +843,7 @@ h4 {
   font-size: 60px;
   font-family: "Petit Formal Script", cursive;
   font-weight: 400;
-  color: #c78665;
+  color: #555;
   margin-bottom: 17px;
 }
 
@@ -864,7 +869,8 @@ h4 {
 @media (min-width: 481px) {
   .inviteText {
     width: 700px;
-    margin: 150px auto;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 60px;
   }
 }
@@ -909,7 +915,7 @@ h4 {
 }
 
 .bg-button-main {
-  background: #c78665;
+  background: #555;
 }
 
 #myModal--effect-zoomIn > div > div > div.modal-footer > button:hover {
